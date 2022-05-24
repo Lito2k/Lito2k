@@ -1,0 +1,101 @@
+.container{
+    width: 600px;
+    height: 500px;
+    background-image: url("dios.jpg");
+    background-size: cover;
+    margin: auto;
+    /* padding-top: 50px; */
+    padding-top: 100px;
+    /* padding-bottom: -50px; */
+    flex-wrap: wrap;
+
+
+}
+
+fieldset{
+    /* margin: auto; */
+    width: 80%;
+    height: 50%;
+    display: flex;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* margin-top: auto; */
+    /* margin-bottom: auto; */
+    border:8px solid rgba(255, 255, 255, 0.11);
+    background-color: rgba(255, 255, 255, 0.801);
+    padding: 8px;
+    flex-wrap: wrap;
+    margin: auto;
+
+    
+
+}
+.divh4{
+    width: 100%;
+    height: 10%;
+    padding-left: 50px;
+    color: rgb(58, 49, 8);
+    
+
+}
+.columnas{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+}
+.col{
+    /* padding: 10%; */
+    width: 40%;
+    flex-wrap: wrap;
+}
+.enviar{
+    width: 100%;
+    height: 30%;
+    /* background-color: aquamarine; */
+    /* display: flex;
+    flex-direction: column; */
+
+}
+.inp{
+    width: 100%;
+    margin-bottom: 10px;
+}
+#button{
+    /* width: 10%; */
+    display: block;
+    padding:10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: rgb(65, 80, 119);
+    color: white;
+}
+@media screen and (max-width:600px){
+    .container{
+        display: block;
+        width: 100%;
+        height: fit-content;
+        padding-bottom: 50px;
+
+    }
+    .columnas{
+        /* background-color: aqua; */
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .col{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 10%;
+    }
+    .inp{
+        width: 100%;
+    }
+ 
+
+}

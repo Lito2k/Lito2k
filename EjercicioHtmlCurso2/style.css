@@ -1,0 +1,195 @@
+body{
+    background-color: rgb(32, 32, 32);
+}
+.container{
+    width: 80%;
+    /* height: 1000px; */
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+}
+.titulo{
+    height: 150px;
+    font-size: 50px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: black;
+    color: darkgoldenrod;
+    border: 1px solid goldenrod;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav{
+    width: 100%;
+    /* height: 100px; */
+    background-color: darkgoldenrod;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+    margin-top: 0px;
+    z-index: 1;
+    box-shadow: 10px 10px 10px ;
+    margin-bottom: 40px;
+    
+}
+ul{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: darkgoldenrod;
+    margin-top: 0px;
+    justify-content: space-around;
+    
+}
+li{
+    width: 20%;
+    height: 100px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+   
+
+    
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+h1, h2{
+    text-align: center;
+}
+.mifoto{
+    margin: auto;
+    width: 30%;
+    height: 500px;
+    border: 2px solid black;
+    background-image: url("alebarba.png");
+    background-size: cover;
+    animation-name:mifotito ;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+    box-shadow: 5px 5px 10px;
+
+
+}
+@keyframes mifotito{
+    0%{transform: scale(0,0) rotate(0deg) }
+   
+    100%{transform: scale(1,1)}
+}
+.contenido{
+  
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+}
+.mitad1{
+    background-image: url("superbaby.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 500px;
+}
+.mitad2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 50%;
+    height: 500px;
+}
+hr{
+    width: 50%;
+    text-align: center;
+    height: 3px;
+    background-color: black;
+}
+.contenido2{
+  
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+}
+.mitad3{
+    background-image: url("ajedrez.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 500px;
+}
+.mitad4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    width: 50%;
+    height: 500px;
+    overflow: scroll;
+}
+.mitad5{
+    background-image: url("premio.jpg.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 500px;
+}
+.mitad6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 50%;
+    height: 500px;
+}
+p{
+    font-size: 20px;
+}
+.dios{
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    display: flex;
+}
+.contact{
+    width: 100%;
+   
+}
+#diosito{
+    width: 100%;
+    height: 100%;
+}
+#formu{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+}
+@media screen and (max-width:600px){
+    ul{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+
+
+
+
